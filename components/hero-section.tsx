@@ -23,8 +23,16 @@ export default function HeroSection() {
       {/* Contenido principal */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="bg-white bg-opacity-95 p-8 sm:p-12 rounded-2xl shadow-2xl backdrop-blur-sm">
-          {/* Logo placeholder - podrías agregar el logo de Mohhikat aquí */}
-          <div className="mb-8">
+          {/* Logo de Mohhikat */}
+          <div className="mb-8 flex flex-col items-center">
+            <Image
+              src="/images/logotipo.jpg"
+              alt="Logo Mohhikat"
+              width={200}
+              height={120}
+              className="mb-4 rounded-lg shadow-md"
+              priority
+            />
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
               <span className="mint-green-dark">Mohhi</span><span className="mint-green">kat</span>
             </h1>
