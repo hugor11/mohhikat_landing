@@ -1,5 +1,6 @@
 
 import HeroSection from '../components/hero-section'
+import WhyChooseSection from '../components/why-choose-section'
 import BenefitsSection from '../components/benefits-section'
 import ComparisonSection from '../components/comparison-section'
 import CalculatorSection from '../components/calculator-section'
@@ -58,6 +59,7 @@ export default function Home() {
       />
       
       <HeroSection />
+      <WhyChooseSection />
       <BenefitsSection />
       <ComparisonSection />
       <CalculatorSection />

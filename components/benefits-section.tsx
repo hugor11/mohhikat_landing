@@ -41,20 +41,32 @@ export default function BenefitsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="flex justify-center items-center mb-6">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mr-4">¿Por qué elegir</h2>
-            <Image
-              src="/images/logotipo.jpg"
-              alt="Mohhikat"
-              width={120}
-              height={70}
-              className="rounded-lg"
-            />
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 ml-4">?</h2>
+          <div className="flex justify-center items-center mb-6 flex-wrap gap-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">¿Por qué elegir</h2>
+            <div className="relative">
+              <div className="absolute inset-0 bg-mint-green rounded-2xl blur-lg opacity-20 scale-110"></div>
+              <Image
+                src="/images/logotipo.jpg"
+                alt="Mohhikat"
+                width={100}
+                height={60}
+                className="relative rounded-xl shadow-xl border-2 border-white/80 bg-white p-1 hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">?</h2>
           </div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
             La arena que tu gato merece y tu familia necesita. Calidad premium con el respaldo de una marca mexicana.
           </p>
+          
+          {/* Mensaje de confianza */}
+          <div className="bg-mint-green/5 border border-mint-green/20 rounded-2xl p-6 max-w-2xl mx-auto">
+            <p className="text-lg font-medium text-mint-green-dark flex items-center justify-center gap-2">
+              <Star className="w-5 h-5" />
+              ¡Más de 50,000 familias mexicanas ya confían en nosotros!
+              <Star className="w-5 h-5" />
+            </p>
+          </div>
         </div>
 
         {/* Benefits grid */}

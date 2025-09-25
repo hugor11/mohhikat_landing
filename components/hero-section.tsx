@@ -25,14 +25,17 @@ export default function HeroSection() {
         <div className="bg-white bg-opacity-95 p-8 sm:p-12 rounded-2xl shadow-2xl backdrop-blur-sm">
           {/* Logo de Mohhikat */}
           <div className="mb-8 flex flex-col items-center">
-            <Image
-              src="/images/logotipo.jpg"
-              alt="Mohhikat - Arena para Gatos"
-              width={240}
-              height={140}
-              className="mb-6 rounded-lg shadow-lg"
-              priority
-            />
+            <div className="relative">
+              <div className="absolute inset-0 bg-mint-green rounded-full blur-xl opacity-20 scale-110"></div>
+              <Image
+                src="/images/logotipo.jpg"
+                alt="Mohhikat - Arena para Gatos"
+                width={200}
+                height={120}
+                className="relative rounded-2xl shadow-2xl border-4 border-white/80 bg-white p-2 hover:scale-105 transition-transform duration-300"
+                priority
+              />
+            </div>
           </div>
 
           {/* Mensaje principal */}
