@@ -1,0 +1,43 @@
+{
+  "name": "Mohhikat - Arena Premium para Gatos",
+  "short_name": "Mohhikat",
+  "description": "Arena premium mexicana para gatos con control superior de olores",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F5F5DC",
+  "theme_color": "#4ECDC4",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "/images/logotipo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logotipo.jpg", 
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["pets", "shopping", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Beneficios",
+      "short_name": "Beneficios",
+      "description": "Conoce los beneficios de la arena Mohhikat",
+      "url": "/#beneficios",
+      "icons": [{ "src": "/images/logotipo.jpg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Tiendas",
+      "short_name": "Tiendas", 
+      "description": "Encuentra Mohhikat cerca de ti",
+      "url": "/#tiendas",
+      "icons": [{ "src": "/images/logotipo.jpg", "sizes": "96x96" }]
+    }
+  ]
+}
