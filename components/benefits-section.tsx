@@ -1,36 +1,37 @@
 
 import { Shield, Droplet, Clock, Heart, Home, Star } from 'lucide-react'
+import Image from 'next/image'
 
 const benefits = [
   {
     icon: Droplet,
-    title: 'Súper Absorción',
-    description: 'Absorbe hasta 3 veces su peso en líquidos. ¡Tu hogar siempre limpio y seco!'
+    title: 'Máxima Absorción',
+    description: 'Tecnología avanzada que absorbe hasta 4 veces más líquidos que la arena convencional, manteniendo el arenero seco por más tiempo.'
   },
   {
     icon: Shield,
     title: 'Control Total de Olores',
-    description: 'Neutraliza los olores al instante. Tecnología mexicana que sí funciona.'
+    description: 'Fórmula especializada que neutraliza y elimina los olores al instante, garantizando un ambiente fresco en tu hogar las 24 horas.'
   },
   {
     icon: Clock,
     title: 'Larga Duración',
-    description: 'Dura más tiempo que otras marcas. Más ahorro para tu familia.'
+    description: 'Mayor rendimiento por saco. Dura hasta 30% más que otras marcas premium, ofreciendo el mejor valor por tu inversión.'
   },
   {
     icon: Heart,
-    title: 'Seguro para tu Gato',
-    description: '100% natural y libre de químicos dañinos. Cuidamos a tu michito como tú.'
+    title: '100% Segura para tu Gato',
+    description: 'Elaborada con materiales naturales, libre de químicos tóxicos y fragancias artificiales. Suave con las patitas de tu michito.'
   },
   {
     icon: Home,
     title: 'Ideal para Hogares Mexicanos',
-    description: 'Diseñado especialmente para el clima y estilo de vida mexicano.'
+    description: 'Desarrollada específicamente para nuestro clima y condiciones. Se adapta perfectamente al estilo de vida de las familias mexicanas.'
   },
   {
     icon: Star,
-    title: 'Calidad Premium',
-    description: 'La mejor calidad del mercado a precio justo. ¡Sin trucos ni letra chica!'
+    title: 'Calidad Premium Garantizada',
+    description: 'Respaldada por años de investigación y desarrollo. La confianza de miles de familias mexicanas nos avala.'
   }
 ]
 
@@ -40,11 +41,19 @@ export default function BenefitsSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            ¿Por qué elegir <span className="mint-green-dark">Mohhi</span><span className="mint-green">kat</span>?
-          </h2>
+          <div className="flex justify-center items-center mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mr-4">¿Por qué elegir</h2>
+            <Image
+              src="/images/logotipo.jpg"
+              alt="Mohhikat"
+              width={120}
+              height={70}
+              className="rounded-lg"
+            />
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 ml-4">?</h2>
+          </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Porque sabemos lo que necesita tu gato y tu familia. Arena mexicana hecha con amor y ciencia.
+            La arena que tu gato merece y tu familia necesita. Calidad premium con el respaldo de una marca mexicana.
           </p>
         </div>
 

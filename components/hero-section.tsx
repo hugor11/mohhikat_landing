@@ -27,15 +27,12 @@ export default function HeroSection() {
           <div className="mb-8 flex flex-col items-center">
             <Image
               src="/images/logotipo.jpg"
-              alt="Logo Mohhikat"
-              width={200}
-              height={120}
-              className="mb-4 rounded-lg shadow-md"
+              alt="Mohhikat - Arena para Gatos"
+              width={240}
+              height={140}
+              className="mb-6 rounded-lg shadow-lg"
               priority
             />
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-              <span className="mint-green-dark">Mohhi</span><span className="mint-green">kat</span>
-            </h1>
           </div>
 
           {/* Mensaje principal */}
