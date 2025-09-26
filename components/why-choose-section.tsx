@@ -1,7 +1,5 @@
 'use client'
 
-import Image from 'next/image'
-
 export default function WhyChooseSection() {
   return (
     <section className="py-20 bg-gradient-to-br from-white via-purple-50/30 to-mint-green/10 relative overflow-hidden" id="porque-elegir">
@@ -27,7 +25,7 @@ export default function WhyChooseSection() {
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-4 h-4 text-mint-green-dark">🐾</div>
+                  <div className="text-mint-green-dark text-xl">🐾</div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-mint-green-dark mb-1">
@@ -38,7 +36,7 @@ export default function WhyChooseSection() {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-4 h-4 text-mint-green-dark">🐾</div>
+                  <div className="text-mint-green-dark text-xl">🐾</div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-mint-green-dark mb-1">
@@ -49,7 +47,7 @@ export default function WhyChooseSection() {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-4 h-4 text-mint-green-dark">🐾</div>
+                  <div className="text-mint-green-dark text-xl">🐾</div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-mint-green-dark mb-1">
@@ -60,7 +58,7 @@ export default function WhyChooseSection() {
 
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0 mt-1">
-                  <div className="w-4 h-4 text-mint-green-dark">🐾</div>
+                  <div className="text-mint-green-dark text-xl">🐾</div>
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-mint-green-dark mb-1">
@@ -114,62 +112,6 @@ export default function WhyChooseSection() {
                 {/* Efecto de brillo */}
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-transparent via-white/5 to-white/20 rounded-full blur-xl"></div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  )
-}
-        </div>
-
-          {/* Lista de beneficios */}
-          <div className="order-1 lg:order-2">
-            <div className="space-y-6">
-              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-mint-green/5 transition-colors">
-                <div className="flex-shrink-0 w-3 h-3 bg-mint-green-dark rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-bold text-mint-green-dark mb-2">
-                    MODERNA – CONECTAMOS CON EL ESTILO DE VIDA ACTUAL DE LOS CAT LOVERS.
-                  </h3>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-mint-green/5 transition-colors">
-                <div className="flex-shrink-0 w-3 h-3 bg-mint-green-dark rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-bold text-mint-green-dark mb-2">
-                    DIVERTIDA Y ÚNICA – EMPAQUES SENCILLO, FÁCIL TRANSPORTACIÓN
-                  </h3>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-mint-green/5 transition-colors">
-                <div className="flex-shrink-0 w-3 h-3 bg-mint-green-dark rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-bold text-mint-green-dark mb-2">
-                    ATRACTIVA Y FUNCIONAL – ALTO RENDIMIENTO
-                  </h3>
-                </div>
-              </div>
-
-              <div className="flex items-start space-x-4 p-4 rounded-xl hover:bg-mint-green/5 transition-colors">
-                <div className="flex-shrink-0 w-3 h-3 bg-mint-green-dark rounded-full mt-2"></div>
-                <div>
-                  <h3 className="text-lg font-bold text-mint-green-dark mb-2">
-                    EXPRESIVA – CELEBRAMOS QUE CADA GATO ES ÚNICO
-                  </h3>
-                </div>
-              </div>
-            </div>
-
-            {/* Mensaje de confianza */}
-            <div className="mt-12 bg-gradient-to-r from-mint-green/10 to-mint-pastel/10 border border-mint-green/20 rounded-2xl p-6">
-              <p className="text-lg font-bold text-center text-mint-green-dark flex items-center justify-center gap-2">
-                <span className="text-2xl">🐱</span>
-                ¡Más de 50,000 familias mexicanas ya confían en nosotros!
-                <span className="text-2xl">💕</span>
-              </p>
             </div>
           </div>
         </div>

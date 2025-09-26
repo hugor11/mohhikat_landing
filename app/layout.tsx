@@ -2,7 +2,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import SEOStructuredData from '@/components/seo-structured-data'
+// import SEOStructuredData from '@/components/seo-structured-data'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -72,7 +72,7 @@ export default function RootLayout({
   return (
     <html lang="es-MX">
       <head>
-        <SEOStructuredData />
+        {/* <SEOStructuredData /> */}
         <link rel="canonical" href="https://mohhikat.com" />
         <meta name="geo.region" content="MX" />
         <meta name="geo.country" content="México" />
